@@ -136,6 +136,23 @@ ul {
   align-items: center;
   font-style: italic;
 }
+
+.copyright .container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.copyright {
+  height: 40px;
+  background-color: #3474e6;
+  margin-top: 0px;
+  padding-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .quotation p {
   text-align: right;
   margin-right: 70px;
