@@ -15,13 +15,21 @@
           <img class="pikachuimg" src="images/pikachu.png" />
         </div>
         <ul class="nav">
-          <li>
+          <li class="nav-list-items">
+            <input
+              type="text"
+              class="inputc"
+              id="searchid"
+              placeholder="Search for..."
+            />
+          </li>
+          <li class="nav-list-items">
             <a href="#">Home</a>
           </li>
-          <li>
+          <li class="nav-list-items">
             <a href="#">About</a>
           </li>
-          <li>
+          <li class="nav-list-items">
             <a href="#">Contact</a>
           </li>
         </ul>
@@ -37,7 +45,14 @@
             me know what you think. My goal is to practice using html and css so
             that I can continue on my software engineering journey
           </p>
-          <button class="buttonc" type="button">Sign Up Now!</button>
+          <button class="buttonc" id="buttonid" type="button">
+            Sign Up Now!
+          </button>
+          <a href="form.html">
+            <button class="buttonc" id="buttonid2" type="button">
+              Search Here!
+            </button></a
+          >
         </div>
         <img src="images/grid.svg" />
       </div>
@@ -77,4 +92,5 @@
       </div>
     </section>
   </body>
+  <script src="script.js"></script>
 </html>
